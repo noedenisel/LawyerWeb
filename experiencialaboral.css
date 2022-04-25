@@ -1,0 +1,89 @@
+/*STYLE CSS*/
+
+.gradient {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(334deg, black, #834d9b, #f7137e);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+    
+}
+
+@keyframes gradient-animation{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  overflow: auto scroll;
+}
+header{
+    background: red;
+
+}
+
+
+.titulos {
+    font-style:italic;
+    vertical-align: middle;
+    color:deeppink;
+}
+
+
+nav{
+    background: red;
+}
+
+
+
+section {
+    background: red;
+ 
+}
+
+
+
+li {
+    font-style: normal;
+    color: rgb(10, 10, 10);
+
+}
+
+ul li {
+	list-style: none;
+}
+
+ul li::before {
+    content: "❤ ";
+    color:fuchsia;
+    display: inline-block;
+	width: 1em;
+	margin-left: -1em
+  }
+
+  footer{
+    background: red;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.coprygth {
+   text-align-last: center;
+    color: black;
+}
+
